@@ -1,0 +1,42 @@
+	/*
+	@Override
+	public void put(BinaryNode r, Pixel data) throws DuplicatedKeyException {
+		Location tempKey = data.getLocation();
+		BinaryNode node = new BinaryNode(data, new BinaryNode(), new BinaryNode(), null);
+		//node.setData(data);
+		
+		if (root.isLeaf() == true) {
+			root = node;
+			return;
+		}
+		
+		BinaryNode current = r;
+		BinaryNode parent = null;
+		
+		while (true) {
+			parent = current;
+			
+			if (tempKey.compareTo(current.getData().getLocation()) == -1) {
+				current = current.getLeft();
+				
+				if (current == null) {
+					parent.setLeft(node);
+					node.setParent(parent);
+					return;
+				}
+			} else if (tempKey.compareTo(current.getData().getLocation()) == 1) {
+				current = current.getRight();
+				
+				if (current == null) {
+					parent.setRight(node);
+					node.setParent(parent);
+					return;
+				}
+			} else {
+				throw new DuplicatedKeyException();
+			}
+		}
+	}
+	*/
+
+

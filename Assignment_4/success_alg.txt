@@ -1,0 +1,9 @@
+search left tree until find node that is less than key
+
+while current.left < key
+	current = current.left
+
+while current.right < key
+	current = current.right
+
+findmax(current)

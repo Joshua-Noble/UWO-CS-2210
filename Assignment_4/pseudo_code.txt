@@ -1,0 +1,8 @@
+if root > key:
+	go to left child
+
+	current = left child
+	while current > key
+		current 
+else if root < key:
+	go to right child
